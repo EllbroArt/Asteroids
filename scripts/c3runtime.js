@@ -3798,6 +3798,7 @@ onedit:v=>this._speed=C3.toRadians(v)},{name:prefix+".properties.acceleration.na
 		C3.Plugins.System.Acts.SetLayoutScale,
 		C3.Behaviors.Tween.Exps.Value,
 		C3.Plugins.VKBridge.Acts.LeaderSave,
+		C3.Plugins.VKBridge.Acts.JoinGroup,
 		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.LocalStorage.Acts.SetItem,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
@@ -4108,6 +4109,9 @@ onedit:v=>this._speed=C3.toRadians(v)},{name:prefix+".properties.acceleration.na
 		},
 		() => 1160,
 		() => 760,
+		() => 204776493,
+		() => 6,
+		() => 9,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => (v0.GetValue() + 1);
